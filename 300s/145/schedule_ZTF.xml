@@ -1,0 +1,233 @@
+<?xml version="1.0" ?>
+<voe:VOEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:voe="http://www.ivoa.net/xml/VOEvent/v2.0"
+xsi:schemaLocation="http://www.ivoa.net/xml/VOEvent/v2.0 http://www.ivoa.net/xml/VOEvent/VOEvent-v2.0.xsd"
+>
+    <Table name="data">
+        <Description>The datas of GWAlert</Description>
+        <Field dataType="int" ucd=""' name="grid_id"' unit="">
+            <Description>ID of the grid of fov</Description>
+        </Field>
+        <Field dataType="int" ucd=""' name="field_id"' unit="">
+            <Description>ID of the filed</Description>
+        </Field>
+        <Field dataType="float" ucd="pos.eq.ra "' name="ra"' unit="deg">
+            <Description>The right ascension at center of fov in equatorial coordinates</Description>
+        </Field>
+        <Field dataType="float" ucd="pos.eq.dec "' name="dec"' unit="deg">
+            <Description>The declination at center of fov in equatorial coordinates</Description>
+        </Field>
+        <Field dataType="float" ucd=" "' name="ra_width"' unit="deg">
+            <Description>Width in RA of the fov</Description>
+        </Field>
+        <Field dataType="float" ucd=""' name="dec_width"' unit="deg">
+            <Description>Width in Dec of the fov</Description>
+        </Field>
+        <Field dataType="float" ucd=""' name="prob_sum"' unit="None">
+            <Description>The sum of all pixels in the fov</Description>
+        </Field>
+        <Field dataType="float" ucd=""' name="observ_time"' unit="sec">
+            <Description>Tile mid. observation time in MJD</Description>
+        </Field>
+        <Field dataType="float" ucd=""' name="airmass"' unit="None">
+            <Description>Airmass of tile at mid. observation time</Description>
+        </Field>
+        <Field dataType="int" ucd=""' name="priority"' unit="">
+            <Description></Description>
+        </Field>
+        <Data>
+            <TR>
+                <TD>0</TD>
+                <TD>1668.0</TD>
+                <TD>176.931</TD>
+                <TD>29.75</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.021554791836212228</TD>
+                <TD>55957.25459647332</TD>
+                <TD>2.0350449267980535</TD>
+                <TD>0</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>671.0</TD>
+                <TD>180.47007</TD>
+                <TD>33.35</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.43867747000376145</TD>
+                <TD>55957.25818443629</TD>
+                <TD>2.0560110298400898</TD>
+                <TD>1</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>624.0</TD>
+                <TD>181.02743</TD>
+                <TD>26.15</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.3281898967001363</TD>
+                <TD>55957.27253628815</TD>
+                <TD>2.008821380927094</TD>
+                <TD>2</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>1669.0</TD>
+                <TD>184.5905</TD>
+                <TD>29.75</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.0060077632168745706</TD>
+                <TD>55957.27612425111</TD>
+                <TD>2.0291788788905776</TD>
+                <TD>3</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>575.0</TD>
+                <TD>180.3241</TD>
+                <TD>18.95</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.10320430775493573</TD>
+                <TD>55957.27971221408</TD>
+                <TD>2.0411398937571157</TD>
+                <TD>4</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>1621.0</TD>
+                <TD>184.93364</TD>
+                <TD>22.55</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.008388516793960275</TD>
+                <TD>55957.286888140006</TD>
+                <TD>2.0417141343900815</TD>
+                <TD>5</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>576.0</TD>
+                <TD>187.38957</TD>
+                <TD>18.95</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.03755047183446056</TD>
+                <TD>55957.301239991866</TD>
+                <TD>2.0044456709082</TD>
+                <TD>6</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>525.0</TD>
+                <TD>186.77489</TD>
+                <TD>11.57</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.03092078664298899</TD>
+                <TD>55957.31200388076</TD>
+                <TD>2.001290518175832</TD>
+                <TD>7</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>671.0</TD>
+                <TD>180.47007</TD>
+                <TD>33.35</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.43867747000376145</TD>
+                <TD>55957.31269832521</TD>
+                <TD>1.4237506652017058</TD>
+                <TD>8</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>624.0</TD>
+                <TD>181.02743</TD>
+                <TD>26.15</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.3281898967001363</TD>
+                <TD>55957.31628628817</TD>
+                <TD>1.470459386316542</TD>
+                <TD>9</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>575.0</TD>
+                <TD>180.3241</TD>
+                <TD>18.95</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.10320430775493573</TD>
+                <TD>55957.31987425114</TD>
+                <TD>1.5110951432364894</TD>
+                <TD>10</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>576.0</TD>
+                <TD>187.38957</TD>
+                <TD>18.95</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.03755047183446056</TD>
+                <TD>55957.3234622141</TD>
+                <TD>1.676342220981028</TD>
+                <TD>11</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>525.0</TD>
+                <TD>186.77489</TD>
+                <TD>11.57</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.03092078664298899</TD>
+                <TD>55957.32705017707</TD>
+                <TD>1.766664983106034</TD>
+                <TD>12</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>1668.0</TD>
+                <TD>176.931</TD>
+                <TD>29.75</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.021554791836212228</TD>
+                <TD>55957.33063814003</TD>
+                <TD>1.272869011173533</TD>
+                <TD>13</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>1621.0</TD>
+                <TD>184.93364</TD>
+                <TD>22.55</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.008388516793960275</TD>
+                <TD>55957.334226103</TD>
+                <TD>1.4517280925962774</TD>
+                <TD>14</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>1669.0</TD>
+                <TD>184.5905</TD>
+                <TD>29.75</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.0060077632168745706</TD>
+                <TD>55957.33781406596</TD>
+                <TD>1.3543569323216917</TD>
+                <TD>15</TD>
+            </TR>
+        </Data>
+    </Table>
+</voe:VOEvent>
