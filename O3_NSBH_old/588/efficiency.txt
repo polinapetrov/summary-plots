@@ -1,0 +1,2 @@
+tilesType	timeallocationType	scheduleType	Ntiles	efficiencyMetric	efficiencyMetric_err	injection
+moc	powerlaw	greedy	10	0.0752	0.002637137842434483	Bulla_NSBH_mejdyn0.010_mejwind0.010_phi30_45.6
