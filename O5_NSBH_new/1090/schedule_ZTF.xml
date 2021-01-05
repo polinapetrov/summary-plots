@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<voe:VOEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:voe="http://www.ivoa.net/xml/VOEvent/v2.0"
+xsi:schemaLocation="http://www.ivoa.net/xml/VOEvent/v2.0 http://www.ivoa.net/xml/VOEvent/VOEvent-v2.0.xsd"
+>
+    <Table name="data">
+        <Description>The datas of GWAlert</Description>
+        <Field dataType="int" ucd=""' name="grid_id"' unit="">
+            <Description>ID of the grid of fov</Description>
+        </Field>
+        <Field dataType="int" ucd=""' name="field_id"' unit="">
+            <Description>ID of the filed</Description>
+        </Field>
+        <Field dataType="float" ucd="pos.eq.ra "' name="ra"' unit="deg">
+            <Description>The right ascension at center of fov in equatorial coordinates</Description>
+        </Field>
+        <Field dataType="float" ucd="pos.eq.dec "' name="dec"' unit="deg">
+            <Description>The declination at center of fov in equatorial coordinates</Description>
+        </Field>
+        <Field dataType="float" ucd=" "' name="ra_width"' unit="deg">
+            <Description>Width in RA of the fov</Description>
+        </Field>
+        <Field dataType="float" ucd=""' name="dec_width"' unit="deg">
+            <Description>Width in Dec of the fov</Description>
+        </Field>
+        <Field dataType="float" ucd=""' name="prob_sum"' unit="None">
+            <Description>The sum of all pixels in the fov</Description>
+        </Field>
+        <Field dataType="float" ucd=""' name="observ_time"' unit="sec">
+            <Description>Tile mid. observation time in MJD</Description>
+        </Field>
+        <Field dataType="float" ucd=""' name="airmass"' unit="None">
+            <Description>Airmass of tile at mid. observation time</Description>
+        </Field>
+        <Field dataType="int" ucd=""' name="priority"' unit="">
+            <Description></Description>
+        </Field>
+        <Data>
+            <TR>
+                <TD>0</TD>
+                <TD>322.0</TD>
+                <TD>199.2807</TD>
+                <TD>-17.05</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.2746081106199525</TD>
+                <TD>56026.23232108104</TD>
+                <TD>2.026161659035894</TD>
+                <TD>0</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>1314.0</TD>
+                <TD>199.24102</TD>
+                <TD>-20.65</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.05640365753660104</TD>
+                <TD>56026.25026089587</TD>
+                <TD>2.0269198182950454</TD>
+                <TD>1</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>272.0</TD>
+                <TD>199.53543</TD>
+                <TD>-24.25</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.5668150431134185</TD>
+                <TD>56026.27896459959</TD>
+                <TD>2.0140514681870743</TD>
+                <TD>2</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>272.0</TD>
+                <TD>199.53543</TD>
+                <TD>-24.25</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.5668150431134185</TD>
+                <TD>56026.279659044034</TD>
+                <TD>2.0098611539208258</TD>
+                <TD>3</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>322.0</TD>
+                <TD>199.2807</TD>
+                <TD>-17.05</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.2746081106199525</TD>
+                <TD>56026.283247007</TD>
+                <TD>1.6561022975714592</TD>
+                <TD>4</TD>
+            </TR>
+            <TR>
+                <TD>0</TD>
+                <TD>1314.0</TD>
+                <TD>199.24102</TD>
+                <TD>-20.65</TD>
+                <TD>6.86</TD>
+                <TD>6.86</TD>
+                <TD>0.05640365753660104</TD>
+                <TD>56026.286834969964</TD>
+                <TD>1.786441316821793</TD>
+                <TD>5</TD>
+            </TR>
+        </Data>
+    </Table>
+</voe:VOEvent>
