@@ -1,0 +1,1 @@
+moc	powerlaw	greedy	10	0.0003	0.00017317909804592468	Bulla_NSBH_mejdyn0.010_mejwind0.010_phi30_45.6
